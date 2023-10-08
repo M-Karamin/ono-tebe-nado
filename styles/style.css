@@ -58,6 +58,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
+    font-style: normal;
 }
 
 .cover {
@@ -75,13 +76,14 @@
     background-color: black;
     opacity: 0.6;
     position: absolute;
-
+    top: 0;
+    left: 0;
 }
 
 .cover__title {
     color: #FFF;
     font-size: 100px;
-    font-family: Raleway;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     display: flex;
@@ -146,8 +148,8 @@
 }
 
 .bet-button {
-    width: 257px;
-    height: 52px;
+    min-width: 257px;
+    min-height: 52px;
     color: #FFF;
     font-size: 22px;
     font-style: normal;
@@ -207,7 +209,6 @@
 }
 
 .card_type_film {
-    min-height: 450px;
     background-image: url(../images/card-lot-01.jpg);
 }
 
@@ -304,9 +305,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-.about__text-bottom {
     padding-bottom: 25px;
+}
+
+.about__text:last-child {
+    padding-bottom: 0;
 }
 
 .footer {
