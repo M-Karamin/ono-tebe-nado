@@ -28,7 +28,6 @@
 .header__links-list {
     display: flex;
     list-style: circle;
-
 }
 
 .header__links-list-item  {
@@ -47,7 +46,6 @@
 
 .header__logo-image {
     height: 105px;
-
 }
 
 .header__address {
@@ -99,7 +97,6 @@
 .aligned-text {
     z-index: 1;
     line-height: 115%;
-
 }
 
 .aligned-text_center {
@@ -189,7 +186,6 @@
     display: flex;
     flex-direction: column;
     min-width: 430px;
-    min-height: 450px;
     flex-basis: 430px;
 }
 
@@ -334,7 +330,6 @@
 
 .footer__menu {
     display: flex;
-
 }
 
 .footer__menu-list {
@@ -351,7 +346,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
 
 .footer__menu-link_active {
